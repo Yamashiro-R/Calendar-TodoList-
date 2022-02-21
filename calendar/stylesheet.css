@@ -1,0 +1,108 @@
+
+
+/*カレンダーCSS設定*/
+
+#sun {
+    color: #ff0000; 
+  }
+  #sat {
+    color: #0024f3;
+  }
+#today {
+    font-weight: bold;
+    border: dotted 1px ;
+}
+
+#calendar table {
+  padding: 0 5px;
+  height: 100%;
+  width: 100%;
+}
+#calendar th ,#calendar td{
+  text-align: center;
+}
+
+.holiday {
+  background-color: #f8aba6;
+}
+.holiday2 {
+  background-color: #c8eefa
+}
+
+#calendar th {
+  background-color: #afeeff;
+}
+
+
+#calendar td:hover {
+  background-color: #fe814d;
+}
+
+
+/*inputArea1用*/
+
+#inputArea1  {
+  width: 40%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #59f8f0; 
+}
+
+#hour,#minute {
+  height: 25px;
+  width: 40px;
+  margin-right: 3px;
+}
+#memo {
+  width: 60%;
+}
+
+
+
+/*Todoリスト用*/
+h2 {
+  margin: 5px 0;
+  font-size: 20px;
+}
+#todoList_message {
+  margin-bottom: 10px;
+  width: 50%;
+}
+#todoList_input {
+  width: 40%;
+  background-color: #f1f8ff;
+  border-radius: 10px;
+  border: dashed 1px #fe814d;
+  padding-left: 10px;
+  box-shadow: 0 0 0 5px #f1f8ff;
+  margin-top: 20px;
+}
+#My_ul {
+  padding: 0;
+}
+#todoList_ul li {
+  display: inline-block;  /*横に並べるため*/
+  list-style-type: none;
+  width: 40%;
+  background-color: #f1f8ff;
+  line-height: ;
+  margin-right: 10px;
+  margin-bottom:3px;
+  padding-left: 20px;
+  border-left: double 5px #0024f3;
+  border-radius: 0 10px 10px 0;
+}
+
+
+li button { 
+  margin-left: 20px;
+}
+a:visited {
+  color:#0024f3;
+}
+footer {
+  position: absolute;
+  bottom: 0;  
+}
